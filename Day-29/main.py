@@ -26,7 +26,7 @@ username_label = tk.Label(text="Email/Username:")
 username_label.grid(row=2,column=0)
 username_entry = tk.Entry(width=35)
 username_entry.grid(row = 2, column = 1, columnspan=2, sticky="w")
-username_entry.insert(0, "brennoconzatti13@gmail.com")
+username_entry.insert(0, "@gmail.com")
 
 password_label = tk.Label(text="Password:")
 password_label.grid(row=3,column=0)
